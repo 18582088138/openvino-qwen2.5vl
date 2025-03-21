@@ -18,3 +18,7 @@ python hf_qwen2.5vl_download.py
 ```
 python ov_qwen2.5vl_infer.py
 ```
+- Step 4. Gradio qwen2.5vl multimodal assistant demo 
+```
+ov_qwen2.5vl_gradio_demo.ipynb
+```
