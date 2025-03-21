@@ -9,9 +9,6 @@ from transformers import TextStreamer
 import os
 os.environ["HF_ENDPOINT"]="https://hf-mirror.com"
 
-# ACCESS_TOKEN = "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"
-# login(token=ACCESS_TOKEN)
-
 ov_model_path = "ov-Qwen2.5-VL-3B-Instruct-INT4"
 device="CPU"
 min_pixels = 256 * 28 * 28
